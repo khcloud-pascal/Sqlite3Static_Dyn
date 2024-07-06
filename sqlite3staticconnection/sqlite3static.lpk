@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="sqlite3static"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="FreePascal Development Team, Kurt Fitzner"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="This is a duplicate implementation of TSQLite3Connection that links statically against sqlite.  See the readme file that accompies it for building instructions."/>
+    <License Value="Modifications made by Kurt Fitzner &lt;kurt@va1der.ca> are released into the public domain.  Copyright to component is as follows:
+
+- Component distributed under the LGPL with linking exception, see COPYING.FPL for more details
+- SQLite3 is donated to the public domain
+- In Windows compiling requires libgcc which is licensed under the GPL plus GCC Runtime Library Exception
+- In Windows compiling also requires libkernel32.a which is just an import library for the Windows libkernel32.dll
+"/>
+    <Version Minor="5"/>
+    <Files Count="1">
+      <Item1>
+        <Filename Value="sqlite3staticconnection.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="SQLite3StaticConnection"/>
+      </Item1>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="SQLDBLaz"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>
