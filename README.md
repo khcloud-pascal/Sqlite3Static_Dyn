@@ -1,0 +1,2 @@
+# Sqlite3Static_Dyn
+pascal中sqlite3静态链接或动态释放动态库
