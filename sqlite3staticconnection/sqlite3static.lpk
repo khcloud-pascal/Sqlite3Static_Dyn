@@ -9,7 +9,8 @@
       <Version Value="11"/>
       <PathDelim Value="\"/>
       <SearchPaths>
-        <UnitOutputDirectory Value="static\lib\$(TargetCPU)-$(TargetOS)"/>
+        <Libraries Value="static\lib\$(TargetCPU)-$(TargetOS)"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
     </CompilerOptions>
     <Description Value="This is a duplicate implementation of TSQLite3Connection that links statically against sqlite.  See the readme file that accompies it for building instructions."/>
