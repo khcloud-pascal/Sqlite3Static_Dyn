@@ -1,2 +1,0 @@
-lib\i386-win32
-Output folder for i386-win32 target
